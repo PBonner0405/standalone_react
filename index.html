@@ -5,13 +5,19 @@
         <title>React Standalone App</title>
     </head>
     <body>
-        <div class="cfe-app" data-userid='1'></div>
+        <div class="root" data-mtitle='Click Me'>
+
+        </div>
         
         <!-- Our React App (notice the type is babel) -->
         <script src="./app.min.js" type='text/babel'></script>
 
         <!-- import script -->
         <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+        <script src="https://unpkg.com/react@16/umd/react.production.min.js" crossorigin></script>
+        <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js" crossorigin></script>
+
+        <!-- import material ui script -->
         <script src="https://unpkg.com/react@16/umd/react.production.min.js" crossorigin></script>
         <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js" crossorigin></script>
     </body>
