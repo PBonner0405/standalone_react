@@ -4,7 +4,8 @@
   "description": "Stand Alone App with React",
   "main": "index.js",
   "scripts": {
-    "start": "open http://localhost:8888/ && python3 -m http.server 8888",
+    "pystart": "open http://localhost:8888/ && python3 -m http.server 8888",
+    "start": "open http://localhost:8888/ && http-server -P 8888",
     "build": "npx babel app.js --out-file app.min.js --presets minify --watch"
   },
   "repository": {
